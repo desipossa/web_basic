@@ -69,3 +69,15 @@
 #mainVisual .slick-dots li.slick-active button {
     background: #333;
 }
+
+.line {
+    border-top: 1px dashed red;
+    border-bottom: 1px dashed red;
+    padding: 10px 0;
+}
+
+.line span {
+    display: block;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
