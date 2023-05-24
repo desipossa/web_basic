@@ -1,0 +1,54 @@
+.ctr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, calc(-50% + 100px));
+    margin: 0 0 0 -585px;
+}
+
+.ctr i {
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background: tomato;
+    margin: 0 5px 0 0;
+}
+
+#main_content {
+    padding: 100px 0;
+}
+
+#main_content .inner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#bgm1 {
+    width: 200px;
+    height: 600px !important;
+    background: tomato;
+}
+
+#bgm2 {
+    width: 100px;
+    height: 400px !important;
+    background: tomato;
+}
+
+#bgm3 {
+    width: 50px;
+    height: 300px !important;
+    background: tomato;
+}
+
+#bgm2 iframe {
+    left: -300px !important;
+}
+
+#bgm3 iframe {
+    left: -400px !important;
+}
