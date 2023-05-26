@@ -1,0 +1,47 @@
+#header .gnb>ul>li {
+    position: relative;
+}
+
+
+#header .sub {
+    height: 0;
+    overflow: hidden;
+
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999;
+
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+
+    transition: 0.5s;
+}
+
+#header .gnb:hover>ul>li .sub {
+    height: 200px;
+}
+
+#header .gnb {
+    /* position: relative; */
+}
+
+#header .gnb::before {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    z-index: 999;
+
+    transition: 0.5s;
+}
+
+#header .gnb:hover::before {
+    height: 200px;
+}

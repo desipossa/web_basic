@@ -1,0 +1,44 @@
+#header .gnb>ul>li {
+    position: relative;
+}
+
+
+#header .sub {
+    display: none;
+
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999;
+
+    background: #fff;
+    text-align: center;
+    width: 120px;
+    line-height: 40px;
+}
+
+#header .gnb:hover>ul>li .sub {
+    display: block;
+}
+
+#header .gnb {
+    /* position: relative; */
+}
+
+#header .gnb::before {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    z-index: 999;
+
+}
+
+#header .gnb:hover::before {
+    height: 200px;
+}

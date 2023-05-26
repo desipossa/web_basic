@@ -6,6 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html basic</title>
+    <link rel="stylesheet" href="./css/font.css">
+    <style>
+        hr {
+            position: relative;
+            border: none;
+            border-top: 1px solid #ddd;
+            overflow: visible;
+        }
+
+        hr::before {
+            content: "\ea10";
+            font-family: xeicon;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            padding: 10px;
+            color: #ddd;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            background: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,6 +43,20 @@
 
 
 
+    <hr>
+
+    <h2>css layout header part</h2>
+
+    <ul>
+        <li><a href="./doc/header02.html">header layout 1200 width</a></li>
+    </ul>
+
+
+
+
+
+    <hr>
+
 
 
 
@@ -27,7 +65,7 @@
         <li><a href="./doc/background01.html" target="_blank">background 배우기 - 중요함.</a></li>
     </ul>
 
-
+    <hr>
 
     <h2>video</h2>
     <ul>
@@ -81,6 +119,13 @@
         </li>
     </ul>
 
+
+    <h2>Tab menu 01 - display: none, block 으로 공간을 제어한다.</h2>
+    <ul>
+        <li>
+            <a href="./doc/tab01.html" target="_blank">display: none, block tab menu</a>
+        </li>
+    </ul>
 
 
     <h2>가상요소 - ::before , ::after</h2>
