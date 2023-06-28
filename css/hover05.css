@@ -97,10 +97,16 @@
     background: #444;
 }
 
+#slide .pro_slide {
+    margin: 0 -15px;
+}
+
 #slide .inner .itm {
     position: relative;
     height: 500px;
     overflow: hidden;
+
+    margin: 0 15px;
 }
 
 #slide .img_box {
